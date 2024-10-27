@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+.box{
+    margin-top: 100px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgba(108, 13, 197, 0.699);
+    width: 300px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    box-shadow: 5px 16px 10px 2px #363636;
+}
+.add{
+    width: 250px;
+    height: 4vh;
+
+}
+.bth{
+    margin-top: 10px;
+    width: 150px;
+    height: 5vh;
+    border-radius: 8px;
+    background-color: rgb(51, 6, 93);
+    color: #d2d2d2;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
